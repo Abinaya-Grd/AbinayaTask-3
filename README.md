@@ -66,8 +66,3 @@ The page will reload when you make changes. You may also see any server logs in 
 ## 📜 License
 
 This project is licensed under the **ISC License**.
-
----
-
-✅ **Instructions:**
-✔️ Replace `<your-repo-link>` with your GitHub repository URL before submission.
