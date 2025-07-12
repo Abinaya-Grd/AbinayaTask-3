@@ -1,83 +1,73 @@
-# AbinayaTask-3
-✨ Real-Time Collaborative Editor
+ 💻 AbinayaTask-3: Real-Time Collaborative Editor
 
-This project is a **live, synchronized collaborative text editor** built with **Node.js**, **Express.js**, and **Socket.IO**. It allows multiple users to edit text **simultaneously in real time**, demonstrating WebSocket-based communication.
+This project is a **live, synchronized collaborative text editor** built with **Node.js**, **Express.js**, and **Socket.IO** for your CodTech internship task submission.
 
----
 
- 🚀 Features
+Run the app
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-*  Real-time multi-user editing
-  * Attractive glassmorphism UI with gradient background
-*  Built using **Socket.IO** for WebSocket communication
-*  Responsive design for all devices
+🚀 Features
 
----
+* ✅ Real-time multi-user text editing
+* ✅ Attractive glassmorphism UI design
+* ✅ Responsive layout for all devices
+* ✅ Built using **WebSocket (Socket.IO)**
 
-🛠️ Technologies Used
+In the project directory, you can run:
 
-* **Frontend:** HTML, CSS, JavaScript
-* **Backend:** Node.js, Express.js
-* **WebSocket Library:** Socket.IO
+ 1. Clone the repository
 
----
-
- 📁 Project Structure
-
+```bash
+git clone <your-repo-link>
+cd collab-tool
 ```
-collab-tool/
- ├── public/
- │    ├── index.html
- │    ├── script.js
- │    └── style.css
- ├── package.json
- ├── package-lock.json
- └── server.js
 
+2. Install dependencies
 
- ⚙️ Installation & Running Locally
+```bash
+npm install
+```
 
-1. **Clone the repository**
+ 3. Run the app
 
-   ```bash
-   git clone <your-repo-link>
-   cd collab-tool
-   ```
+```bash
+node server.js
+```
 
-2. **Install dependencies**
+4. View in browser
 
-   ```bash
-   npm install
-   ```
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-3. **Run the server**
+The page will reload when you make changes. You may also see any server logs in your terminal.
 
-   ```bash
-   node server.js
-   ```
+---
 
-4. **Open the app**
+## ✏️ Usage
 
-   * Visit [http://localhost:3000](http://localhost:3000)
-   * Open in **multiple tabs or devices** to test real-time updates
+* Start typing in the editor
+* Changes reflect **instantly** across all connected users
 
+---
 
-
-✏️ How It Works
-
-* Users type in the editor.
-* Changes are emitted to the server using Socket.IO.
-* The server broadcasts updates to all connected clients instantly.
-
-
-
-💡 Future Enhancements
+## 💡 Future Improvements
 
 * Add user authentication
 * Create a collaborative whiteboard
-* Save and load documents from a database
+* Save and load document data to database
 
- 📜 License
+---
 
-This project is licensed under **ISC License**.
+## 👩‍💻 Author
 
+**Abinaya M**
+
+---
+
+## 📜 License
+
+This project is licensed under the **ISC License**.
+
+---
+
+✅ **Instructions:**
+✔️ Replace `<your-repo-link>` with your GitHub repository URL before submission.
